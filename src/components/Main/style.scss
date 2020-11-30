@@ -1,0 +1,88 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+
+  .left-container {
+    display: flex;
+    border: 2px solid #000;
+    flex-direction: column;
+    border-bottom: 0;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+  }
+
+  .icons {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #000;
+    font-size: 25px;
+    background-image: url("../../img/scratched-metal-texture-brushed-steel-plate-background_51195-3554.jpg");
+    background-size: cover;
+    border-bottom: 2px solid #000;
+
+    svg {
+      font-size: 40px;
+      cursor: pointer;
+      transition: 0.3s;
+
+      &:hover {
+        color: rgb(13, 140, 240);
+      }
+    }
+  }
+
+  .btn {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    color: #fff;
+    font-size: 25px;
+    background-image: url("../../img/scratched-metal-texture-brushed-steel-plate-background_51195-3554.jpg");
+    background-size: cover;
+    border-bottom: 2px solid #000;
+    transition: 0.25s;
+
+    &:hover {
+      color: #000;
+      background: #fff;
+      border-right: 5px solid rgb(13, 140, 240);
+    }
+  }
+
+  .btn-selected {
+    color: #000;
+    background: #fff;
+    border-right: 5px solid rgb(13, 140, 240);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .main{
+    justify-content: center;
+    flex-direction: column;
+    .left-container {
+      margin-top: 100px;
+      top: 0;
+      left: 0;
+      position: relative;
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main {
+    .left-container {
+      top: 21%;
+    }
+  }
+}
+
+

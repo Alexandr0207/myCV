@@ -1,0 +1,67 @@
+.projects-page{
+  background-image: url('../../img/dirty-metal-surface.jpg');
+  border: 2px solid #000;
+  text-align: center;
+  background-size: cover;
+  transition: 2s;
+  min-height: 562px;
+  padding: 20px;
+  position: absolute;
+  right: 5%;
+  width: 55%;
+  top: 5%;
+  .title-page{
+    font-size: 35px;
+    font-weight: 700;
+    border-bottom: 2px solid #000;
+    margin-bottom: 5px;
+  }
+  .projects-container{
+    height: 500px;
+    overflow: auto;
+    .section{
+      margin: 30px 0;
+      font-size: 21px;
+      font-weight: 600;
+      border-bottom: 2px solid #000;
+      padding-bottom: 20px;
+      img{
+        border: 2px solid #000;
+      }
+      .link-container{
+        display: flex;
+        justify-content: center;
+        & > div {
+          margin-left: 10px;
+          color: #fff;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .projects-page{
+    top: 15%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .projects-page {
+    left: 0;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    top: 655px;
+    width: 70%;
+    margin: 0 10%;
+    .title-page{
+      font-size: 20px;
+    }
+    .projects-container {
+      .section {
+        font-size: 15px;
+      }
+    }
+  }
+}

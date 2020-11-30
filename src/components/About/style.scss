@@ -1,0 +1,162 @@
+.about{
+  background-image: url("../../img/dirty-metal-surface.jpg");
+  border: 2px solid #000;
+  text-align: center;
+  background-size: cover;
+  transition: 2s;
+  padding: 20px;
+  position: absolute;
+  right: 5%;
+  width: 55%;
+  top: 5%;
+  .about-info{
+    div:first-child{
+      font-size: 35px;
+      font-weight: 700;
+      border-bottom: 2px solid #000;
+      margin-bottom: 5px;
+    }
+    div:nth-child(2){
+      font-size: 25px;
+      font-weight: 700;
+    }
+    div:nth-child(3){
+      font-size: 17px;
+      margin-top: 8px;
+      font-weight: 700;
+    }
+    div:last-child{
+      font-size: 16px;
+      font-weight: 500;
+      margin-top: 8px;
+    }
+  }
+  .contacts-info{
+    display: flex;
+    justify-content: space-between;
+
+    .technical-container{
+      margin: 5px 0;
+      .technical-title{
+        text-align: left;
+        font-weight: 700;
+      }
+      .technical-skills{
+        background: #333;
+        border-radius: 25px;
+        height: 4px;
+        padding: 3px;
+        .skills{
+          height: 4px;
+          background: orange;
+          border-radius: 25px;
+        }
+      }
+    }
+
+    .title{
+      font-size: 35px;
+      font-weight: 700;
+      justify-content: center;
+      border-bottom: 2px solid #000;
+      margin: 5px 0;
+      margin-bottom: 17px;
+    }
+
+    .contacts{
+      width: 45%;
+      font-size: 16px;
+      text-align: left;
+      font-weight: 600;
+      div:first-child{
+        font-size: 35px;
+        font-weight: 700;
+        justify-content: center;
+        border-bottom: 2px solid #000;
+        margin-bottom: 10px;
+      }
+      div{
+        display: flex;
+        align-items: flex-end;
+        margin: 5px 0;
+        svg{
+          font-size: 25px;
+          margin-right: 8px;
+        }
+      }
+      div:last-child{
+        height: 60px;
+        background: orange;
+        color: #fff;
+        width: 160px;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        border-radius: 15px;
+        cursor: pointer;
+        border: 2px solid #000;
+        margin: 70px 0 30px 33%;
+        transition: 0.3s;
+        &:hover{
+          color: #000;
+          background: #fff;
+        }
+      }
+    }
+    .technical{
+      width: 45%;
+    }
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .about{
+    left: 0;
+    margin-top: 100px;
+    top: 655px;
+    width: 70%;
+    margin: 0 10%;
+    margin-bottom: 100px;
+    .about-info {
+      div:first-child{
+        font-size: 20px;
+      }
+      div:last-child{
+        font-size: 13px;
+      }
+    }
+    .contacts-info{
+      flex-direction: column-reverse;
+      .contacts{
+        width: 100%;
+        font-size: 10px;
+        div{
+          align-items: center;
+        }
+        div:first-child{
+          font-size: 20px;
+        }
+        div:last-child{
+          width: 100px;
+          height: 30px;
+          border-radius: 9px;
+          display: flex;
+          justify-content: center;
+          margin: 0;
+          margin-top: 20px;
+        }
+      }
+      .technical{
+        width: 100%;
+        .title{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about{
+    top: 15%;
+  }
+}
