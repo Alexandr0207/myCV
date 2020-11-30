@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/myCV/static/css/main.95b38769.chunk.css",
+    "main.js": "/myCV/static/js/main.f344b29a.chunk.js",
+    "main.js.map": "/myCV/static/js/main.f344b29a.chunk.js.map",
+    "runtime-main.js": "/myCV/static/js/runtime-main.cd1a86f4.js",
+    "runtime-main.js.map": "/myCV/static/js/runtime-main.cd1a86f4.js.map",
+    "static/js/2.1c131cd4.chunk.js": "/myCV/static/js/2.1c131cd4.chunk.js",
+    "static/js/2.1c131cd4.chunk.js.map": "/myCV/static/js/2.1c131cd4.chunk.js.map",
+    "static/js/3.ff896a83.chunk.js": "/myCV/static/js/3.ff896a83.chunk.js",
+    "static/js/3.ff896a83.chunk.js.map": "/myCV/static/js/3.ff896a83.chunk.js.map",
+    "index.html": "/myCV/index.html",
+    "static/css/main.95b38769.chunk.css.map": "/myCV/static/css/main.95b38769.chunk.css.map",
+    "static/js/2.1c131cd4.chunk.js.LICENSE.txt": "/myCV/static/js/2.1c131cd4.chunk.js.LICENSE.txt",
+    "static/media/albert.8fef5d58.png": "/myCV/static/media/albert.8fef5d58.png",
+    "static/media/style.scss": "/myCV/static/media/scratched-metal-texture-brushed-steel-plate-background_51195-3554.eac0f64f.jpg",
+    "static/media/fight.b19e5201.png": "/myCV/static/media/fight.b19e5201.png",
+    "static/media/goIT.270d6d0c.png": "/myCV/static/media/goIT.270d6d0c.png",
+    "static/media/photo_2020-11-23_16-01-43.35fa3998.jpg": "/myCV/static/media/photo_2020-11-23_16-01-43.35fa3998.jpg",
+    "static/media/slack.31cd7c9d.png": "/myCV/static/media/slack.31cd7c9d.png",
+    "static/media/App.css": "/myCV/static/media/wallpaper.bb41b124.jpg",
+    "static/media/weather.054bbfa6.png": "/myCV/static/media/weather.054bbfa6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd1a86f4.js",
+    "static/js/2.1c131cd4.chunk.js",
+    "static/css/main.95b38769.chunk.css",
+    "static/js/main.f344b29a.chunk.js"
+  ]
+}
